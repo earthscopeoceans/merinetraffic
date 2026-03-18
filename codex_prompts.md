@@ -290,6 +290,19 @@
 - Output filename source separator standardized to single underscore (`_src-...`).
 - Script usage/docs aligned to `gps_winnower.py`.
 
+## 2026-03-17
+
+### (repo rules file)
+
+### Canonical rules location
+- Added `AGENTS.md` as the repo-level standing instructions file for future Codex threads.
+- Captured durable workflow rules there:
+- versioning freeze unless explicitly requested
+- changelog handling
+- README maintenance expectations
+- `codex_prompts.md` logging format
+- rename/move rule: `git mv` only, otherwise stop and wait for user
+
 ### (output prefix rename without version bump)
 
 ### Naming update
@@ -304,3 +317,16 @@
 
 ### Versioning
 - `VERSION` intentionally left unchanged at `0.1.1` per request.
+
+## 2026-03-18
+
+### (version bump to 0.1.2)
+
+### Release metadata
+- Bumped `VERSION` from `0.1.1` to `0.1.2`.
+- Added `0.1.2` entry to `CHANGELOG.md` dated `2026-03-18`.
+
+### Changelog highlights
+- Output filename prefix is now `recent_gps_`.
+- README now documents the current input modes, defaults, and output naming.
+- `AGENTS.md` is now tracked as the repo-level standing rules file.

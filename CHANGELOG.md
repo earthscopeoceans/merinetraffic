@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project follows Semantic Versioning.
 
+## [0.1.2] - 2026-03-18
+
+### Changed
+- Output filename prefix is now `recent_gps_` instead of `last_50_gps_`.
+- README was updated to document current input modes, defaults, and output naming.
+
+### Added
+- `AGENTS.md` now captures repo-level standing rules for future Codex threads.
+
 ## [0.1.1] - 2026-03-05
 
 ### Changed
